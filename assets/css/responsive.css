@@ -1,0 +1,237 @@
+/*
+Name: Responsive CSS File - Rover - One Page Parallax Html5 Template
+Author: seven_themes
+Version: 1.0
+*/
+
+/* Medium Device */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .container {
+        width: 970px;
+        margin: 0 auto;
+    }
+    .header-text h2 {
+        font-size: 66px;
+    }
+    .xf-about-us .xf-about-content {
+        margin: 0;
+        padding: 0;
+    }
+    .services .single-service {
+        padding: 45px 19px;
+    }
+    .blog .single-blog .blog-content span {
+        font-size: 11px;
+    }
+    .blog .single-blog .blog-content h4 {
+        font-size: 16px;
+    }
+}
+/* Tablet Device */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container {
+        width: 750px;
+        margin: 0 auto;
+    }
+    .mainmenu ul.nav.navbar-nav > li > a {
+        padding: 28px 12px;
+    }
+    .is-sticky .mainmenu .nav.navbar-nav a {
+        padding: 24px 12px;
+    }
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.35);
+        padding: 12px;
+        transition: 1s;
+    }
+    .header-text h2 {
+        font-size: 48px;
+        margin-bottom: 20px;
+    }
+    .xf-about-us .xf-about-content {
+        margin-bottom: 40px;
+        padding: 0;
+    }
+    .xf-about-us .xf-about-content h4 {
+        margin-bottom: 25px;
+    }
+    .feature {
+        padding: 100px 0 70px;
+    }
+    .feature .single-feature {
+        margin-bottom: 30px; 
+    }
+    .fun-facts {
+        padding: 80px 0 45px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .single-portfolio .porto-content .icon i.fa {
+        font-size: 14px;
+        height: 28px;
+        line-height: 28px;
+        width: 28px;
+    }
+    .client .single-client .content i.fa {
+        transform: translateX(-5px);
+    }
+    .contact .form h4 {
+        font-size: 21px;
+    }
+}
+/* Mobile Device - Portait */
+@media only screen and (max-width: 767px) {
+    .section-title {
+        margin-bottom: 50px;
+    }
+    .section-title h4 {
+        font-size: 23px;
+    }
+    .section-title span {
+        font-size: 11px;
+    }
+    .header-area {
+        background-color: #000;
+        opacity: 1;
+        border: none;
+    }
+    .header-area .logo {
+        padding: 20px 0;
+    }
+    .header-area .logo a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .is-sticky .header-area .logo {
+        padding: 17px 0;
+    }
+    .is-sticky .header-area .logo a {
+        color: #fff;
+        font-size: 22px;
+    }
+    .header-text h2 {
+        font-size: 28px;
+        margin-bottom: 13px;
+    }
+    .header-text a {
+        font-size: 12px;
+        padding: 5px 23px;
+    }
+    .mainmenu ul.nav.navbar-nav li {
+        background-color: #000;
+        display: block;
+        text-align: left;
+        z-index: 9999;
+    }
+    .mainmenu ul.nav.navbar-nav li a {
+        color: #fff;
+        padding: 10px 0;
+    }
+    .is-sticky .mainmenu ul.nav.navbar-nav li a {
+        padding: 14px 0;
+    }
+    .navbar-toggle {
+        margin-bottom: 15px;
+        margin-top: 15px;
+        padding: 10px 10px;
+        transition: .7s;
+    }
+    .is-sticky .navbar-toggle {
+        margin: 13px 15px;
+    }
+    .navbar-toggle .icon-bar {
+        background-color: #fff;
+    }
+    .xf-about-us {
+        padding: 100px 0;
+    }
+    .xf-about-us .xf-about-content {
+        margin-bottom: 30px;
+        padding: 0;
+    }
+    .xf-about-us .xf-about-content h4 {
+        font-size: 23px;
+        margin-bottom: 20px;
+    }
+    .process {
+        padding: 100px 0 70px;
+    }
+    .process .xf-single-process {
+        margin-bottom: 30px;
+    }
+    .feature {
+        padding: 100px 0 70px;
+    }
+    .feature .single-feature {
+        margin-bottom: 30px;
+    }
+    .fun-facts {
+        padding: 80px 0 45px;
+    }
+    .fact {
+        margin-bottom: 35px;
+    }
+    .portfolio .portfolio-filter li {
+        font-size: 12px;
+        padding: 0 11px;
+    }
+    .portfolio .porfolio-items .single-porfolio {
+        width: 100%;
+    }
+    .team {
+        padding: 100px 0 70px;
+    }
+    .team .single-team {
+        margin-bottom: 30px;
+    }
+    .blog .single-blog .blog-content h4 {
+        font-size: 17px;
+        font-weight: 500;
+        letter-spacing: 0px;
+    }
+    .blog .single-blog .blog-content span {
+        font-size: 11px;
+    }
+    .contact .address-group h4 {
+        font-size: 18px;
+    }
+    .contact-group .form {
+        margin-bottom: 30px;
+    }
+    .contact .form h4 {
+        font-size: 18px;
+    }
+    #footer {
+        margin-top: 0px;
+    }
+    #footer .copyright p {
+        font-size: 12px;
+    }
+    #footer .copyright p a {
+        font-size: 12px;
+    }
+}
+/* Mobile Device - Landscape */
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .navbar-collapse{
+        background: rgba(0, 0, 0, 0.35);
+        padding: 12px;
+        transition: 1s;
+    }
+    .header-text h2 {
+        font-size: 32px;
+    }
+    .header-text h2 span {
+        font-size: 32px;
+        margin-bottom: 0;
+    } 
+}
+
+@media only screen and (max-width: 480px) {
+      .navbar-collapse{
+        background: rgba(0, 0, 0, 0.35);
+        padding: 12px;
+        transition: 1s;
+    }
+}
